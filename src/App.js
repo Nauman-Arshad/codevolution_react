@@ -1,5 +1,6 @@
 import './App.css';
 import Class from './comp/Class';
+import Greet from './comp/Greet';
 import Hello from './comp/Hello';
 // import Greet from './components/Greet'
 // import Message from './components/Message';
@@ -9,6 +10,7 @@ function App() {
     <div className="App">
       <Hello />
       <Class />
+      <Greet name="Nauman khan" age="20" />
       {/* <Message/>
     <Greet name= "Nauman"  job= "Developer"/>
     <Greet name= "Maheen" job="Doctor"/>
