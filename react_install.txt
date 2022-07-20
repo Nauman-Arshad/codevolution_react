@@ -1,3 +1,18 @@
 npx create-react-app
 ////////////npx is a node package runner that install when we install node we dirsctly run create-react-app by this
 npm install create-react-app -g
+
+props///////////////////
+props get pass to the component
+props are function parameters
+props are immutable
+props - in functional component
+this.props - in class component
+
+
+state///////////////////
+state is managed with the component
+variable declear in the function body
+sate can be changed 
+useState Hook- functional component
+this.sate- class component

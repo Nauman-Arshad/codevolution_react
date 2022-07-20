@@ -1,6 +1,6 @@
 import React from "react";
 
-function Greet(){
-    return <h1>Hello Nauman Khan</h1>
+function Greet(props){
+    return <h1>Hello {props.name} your job is {props.job}</h1>
 }
 export default Greet
